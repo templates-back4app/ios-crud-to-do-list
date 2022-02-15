@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ParseSwift",
+        "repositoryURL": "https://github.com/parse-community/Parse-Swift",
+        "state": {
+          "branch": null,
+          "revision": "3c3a6e8637a1d93c5f1b910a942aeaedffc77fda",
+          "version": "3.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
