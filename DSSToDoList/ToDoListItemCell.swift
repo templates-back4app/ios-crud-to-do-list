@@ -11,10 +11,10 @@ class ToDoListItemCell: UITableViewCell {
     class var identifier: String { "\(NSStringFromClass(Self.self)).identifier" } // Cell's identifier
     
     /// When set, it updates the title and detail texts of the cell
-    var model: ToDoListItemModel? {
+    var item: ToDoListItem? {
         didSet {
-            textLabel?.text = model?.title
-            detailTextLabel?.text = model?.description
+            textLabel?.text = item?.title
+            detailTextLabel?.text = item?.description
         }
     }
     

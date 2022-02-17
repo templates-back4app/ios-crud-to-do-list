@@ -21,11 +21,3 @@ struct ToDoListItem: ParseObject {
     /// Description for the todo item
     var description: String?
 }
-
-// Custom initializer for ToDoListItemModel to map a ToDoListItem object into ToDoListItemModel
-extension ToDoListItemModel {
-    init?(_ toDoListItem: ToDoListItem) {
-        guard let title = toDoListItem.title else { return nil }
-        self.init(id: toDoListItem.id, title: title, description: toDoListItem.description)
-    }
-}
